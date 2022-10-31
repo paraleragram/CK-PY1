@@ -1,10 +1,7 @@
 def delete(list_, index=None):
     new_list = []
     if index == None:
-        index = list_[-1]
         new_list = list_[:-1]
-    elif index == 0:
-        new_list = list_[1:]
     else: new_list = list_[:index] + list_[index + 1:]
     return new_list
 
