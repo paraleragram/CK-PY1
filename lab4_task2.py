@@ -22,3 +22,4 @@ def get_percent_char(dict_):
         dict_[symbol] = dict_[symbol] / total_sum * 100
     return dict_
 
+print(get_percent_char(get_count_char(main_str)))
